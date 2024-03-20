@@ -25,4 +25,77 @@ body{
 
 .title{
     text-align: center;
+    margin-bottom: 100px
+}
+
+.arreglo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 100%;
+}
+
+.flor{
+    width: 350px;
+    position: absolute;
+}
+
+.flor:nth-child(1){
+    z-index: 10;
+    transform: scaleX(-1);
+}
+
+.flor:nth-child(2){
+    margin-left: 160px;
+    transform: rotate(30deg);
+    z-index: 11;
+}
+
+.flor:nth-child(3){
+    margin-top: 30px;
+    margin-right: 300px;
+    transform: rotate(-25deg);
+    z-index: 12;
+}
+
+.flor:nth-child(4){
+    margin-bottom: 160px;
+    margin-right: 140px;
+    transform: rotate(-10deg);
+    z-index: 8;
+}
+
+.flor:nth-child(5){
+    margin-bottom: 160px;
+    margin-left: 140px;
+    transform: rotate(10deg);
+    z-index: 8;
+}
+
+.flor:nth-child(6){
+    margin-bottom: 280px;
+    z-index: 7;
+}
+
+.flor:nth-child(7){
+    margin-left: 240px;
+    margin-bottom: 100px;
+    transform: rotate(60deg);
+    z-index: 9;
+}
+
+.flor:nth-child(7){
+    margin-left: 100px;
+    margin-bottom: 400px;
+    transform: rotate(60deg);
+    z-index: 5;
+}
+
+.flor:nth-child(7){
+    margin-right: 190px;
+    margin-bottom: 380px;
+    transform: rotate(-60deg);
+    z-index: 5;
 }
