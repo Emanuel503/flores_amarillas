@@ -3,9 +3,9 @@ document.addEventListener("DOMContentLoaded", function() {
     let btnsi = document.getElementById('btn-si');
     let btnno = document.getElementById('btn-no');
     let modalno = document.getElementById('modalno');
+    let modal = document.getElementById('modal');
 
     btnsi.addEventListener('click', function() {
-        let modal = document.getElementById('modal');
         modal.classList.add('oculto');
         audio.play();
     });
